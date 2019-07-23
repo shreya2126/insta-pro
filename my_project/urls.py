@@ -22,10 +22,10 @@ from myapp import views
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.conf.urls.static import static
 
-
+print ('settings.PROJECT_ROOT   =>  ',settings.PROJECT_ROOT)
 urlpatterns = [
     url(r'^signup/$', views.signup_view, name="signup"),
     url(r'^login/$', views.login_view, name="login"),
     url(r'^$',views.index)
-    ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+    ] + static(settings.STATIC_URL, document_root=settings.PROJECT_ROOT + '/static')
 # urlpatterns +=staticfiles_urlpatterns()
