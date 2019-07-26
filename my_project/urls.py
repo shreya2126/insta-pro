@@ -20,12 +20,16 @@ from django.urls import path
 from rest_framework.urlpatterns import format_suffix_patterns
 from myapp import views
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+
 from django.conf.urls.static import static
 
 print ('settings.PROJECT_ROOT   =>  ',settings.PROJECT_ROOT)
 urlpatterns = [
     url(r'^signup/$', views.signup_view, name="signup"),
     url(r'^login/$', views.login_view, name="login"),
-    url(r'^$',views.index)
+    url(r'^$',views.index),
+    url(r'^insta_user_details$', views.search_user_details_insta, name = 'insta_user'),
+    path('admin/', admin.site.urls)
+
     ] + static(settings.STATIC_URL, document_root=settings.PROJECT_ROOT + '/static')
 # urlpatterns +=staticfiles_urlpatterns()
