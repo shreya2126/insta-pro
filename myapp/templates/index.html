@@ -1,6 +1,7 @@
 {% load staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- ========== Meta Tags ========== -->
     <meta charset="UTF-8">
@@ -28,145 +29,193 @@
     <!-- Custom styles for this template -->
     <link href="static/css/main.css" rel="stylesheet">
 </head>
+
 <body>
-<div class="loader">
-    <div class="loader-outter"></div>
-    <div class="loader-inner"></div>
-</div>
+    <div class="loader">
+        <div class="loader-outter"></div>
+        <div class="loader-inner"></div>
+    </div>
 
-<div class="body-container container-fluid">
-    <a class="menu-btn" href="javascript:void(0)">
-        <i class="ion ion-grid"></i>
-    </a>
-    <div class="row justify-content-center">
-        <!--=================== side menu ====================-->
-        <div class="col-lg-2 col-md-3 col-12 menu_block">
+    <div class="body-container container-fluid">
+        <a class="menu-btn" href="javascript:void(0)">
+            <i class="ion ion-grid"></i>
+        </a>
+        <div class="row justify-content-center">
+            <!--=================== side menu ====================-->
+            <div class="col-lg-2 col-md-3 col-12 menu_block">
 
-            <!--logo -->
-            <div class="logo_box">
-                <a href="#">
-                    INSTA FEVER
-                </a>
-            </div>
-            <!--logo end-->
-
-            <!--main menu -->
-            <div class="side_menu_section">
-                <ul class="menu_nav">
-                    <li class="active">
-                        <a href="index.html">
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="about.html">
-                            About Us
-                        </a>
-                    </li>
-                    <li>
-                        <a href="services.html">
-                            Services
-                        </a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html">
-                            Portfolio
-                        </a>
-                    </li>
-                    <li>
-                        <a href="blog.html">
-                            Blog
-                        </a>
-                    </li>
-                    <li>
-                        <a href="contact.html">
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <!--main menu end -->
-
-            <!--filter menu -->
-            <div class="side_menu_section">
-                <h4 class="side_title">filter by:</h4>
-                <ul  id="filtr-container"  class="filter_nav">
-                    <li  data-filter="*" class="active"><a href="javascript:void(0)" >all</a></li>
-                    <li data-filter=".branding"> <a href="javascript:void(0)">branding</a></li>
-                    <li data-filter=".design"><a href="javascript:void(0)">design</a></li>
-                    <li data-filter=".photography"><a href="javascript:void(0)">photography</a></li>
-                    <li data-filter=".architecture"><a href="javascript:void(0)">architecture</a></li>
-                </ul>
-            </div>
-            <!--filter menu end -->
-            <div class="side_menu_section">
-                <h4 class="side_title">details:</h4>
-                <form class="form" method="post">
-                    <tr><th></th><td><input type="text" name="asdads" value = "fasdfsafd" autofocus id="insta_user_search"></td></tr>
-<tr><th></th></tr>
-                    
-                 </form>
-
+                <!--logo -->
+                <div class="logo_box">
+                    <a href="#">
+                        INSTA FEVER
+                    </a>
                 </div>
+                <!--logo end-->
 
-
-
-
-            <!--social and copyright -->
-            <div class="side_menu_bottom">
-                <div class="side_menu_bottom_inner">
-                    <ul class="social_menu">
-                        <li>
-                            <a href="#"> <i class="ion ion-social-pinterest"></i> </a>
+                <!--main menu -->
+                <div class="side_menu_section">
+                    <ul class="menu_nav">
+                        <li class="active">
+                            <a href="index.html">
+                                Home
+                            </a>
                         </li>
                         <li>
-                            <a href="#"> <i class="ion ion-social-facebook"></i> </a>
+                            <a href="about.html">
+                                About Us
+                            </a>
                         </li>
                         <li>
-                            <a href="#"> <i class="ion ion-social-twitter"></i> </a>
+                            <a href="services.html">
+                                Services
+                            </a>
                         </li>
                         <li>
-                            <a href="#"> <i class="ion ion-social-dribbble"></i> </a>
+                            <a href="portfolio.html">
+                                Portfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="blog.html">
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact.html">
+                                Contact
+                            </a>
                         </li>
                     </ul>
-                    <div class="copy_right">
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        <p class="copyright">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </div>
+                <!--main menu end -->
+
+                <!--filter menu -->
+                <div class="side_menu_section">
+                    <h4 class="side_title">filter by:</h4>
+                    <ul id="filtr-container" class="filter_nav">
+                        <li data-filter="*" class="active"><a href="javascript:void(0)">all</a></li>
+                        <li data-filter=".branding"> <a href="javascript:void(0)">branding</a></li>
+                        <li data-filter=".design"><a href="javascript:void(0)">design</a></li>
+                        <li data-filter=".photography"><a href="javascript:void(0)">photography</a></li>
+                        <li data-filter=".architecture"><a href="javascript:void(0)">architecture</a></li>
+                    </ul>
+                </div>
+                <!--filter menu end -->
+                <div class="side_menu_section">
+                    <h4 class="side_title">details:</h4>
+                    <form class="form">
+                        <tr>
+                            <th></th>
+                            <td><input type="text" placeholder="enter username" autofocus class="insta_user_search">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                        </tr>
+
+                    </form>
+
+                </div>
+                <div>
+                    <table class="table">
+                        <!-- <thead>
+                                  <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">post</th>
+                                    <th scope="col">follower</th>
+                                    <th scope="col">following/th>
+                                  </tr>
+                                </thead> -->
+                        <tbody>
+                            <tr>
+                                <!-- <th scope="row">1</th> -->
+                                <td>USER:</td>
+                                <td id="user"></td>
+                            </tr>
+                            <tr>
+                                <!-- <th scope="row">1</th> -->
+                                <td>POST:</td>
+                                <td id="posts">1</td>
+                            </tr>
+                            <tr>
+                                <!-- <th scope="row">2</th> -->
+                                <td>FOLLOWERS:</td>
+                                <td id="followers">2</td>
+                            </tr>
+                            <tr>
+                                <!-- <th scope="row">3</th> -->
+                                <td>FOLLOWING:</td>
+                                <td id="following">3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+
+
+                <!--social and copyright -->
+                <div class="side_menu_bottom">
+                    <div class="side_menu_bottom_inner">
+                        <ul class="social_menu">
+                            <li>
+                                <a href="#"> <i class="ion ion-social-pinterest"></i> </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class=" ion-social-facebook"></i> </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="ion ion-social-twitter"></i> </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="ion ion-social-dribbble"></i> </a>
+                            </li>
+                        </ul>
+                        <div class="copy_right">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            <p class="copyright">Copyright &copy;
+                                <script>document.write(new Date().getFullYear());</script> All rights reserved | This
+                                template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                                    href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </div>
                     </div>
                 </div>
+                <!--social and copyright end -->
+
             </div>
-            <!--social and copyright end -->
+            <!--=================== side menu end====================-->
 
-        </div>
-        <!--=================== side menu end====================-->
-
-        <!--=================== content body ====================-->
-        <div class="col-lg-10 col-md-9 col-12 body_block  align-content-center">
-            <div class="portfolio">
-                <div class="container-fluid">
-                    <!--=================== masaonry portfolio start====================-->
-                    <div class="grid img-container justify-content-center no-gutters">
-                        <div class="grid-sizer col-sm-12 col-md-6 col-lg-3"></div>
-                        <div class="grid-item branding  col-sm-12 col-md-6 col-lg-3">
-                            <a href="https://localtvwiti.files.wordpress.com/2019/07/s097019249.jpg?quality=85&strip=all&w=770" title="social media">
-                                <div class="project_box_one">
-                                    <img src="https://localtvwiti.files.wordpress.com/2019/07/s097019249.jpg?quality=85&strip=all&w=770" alt="social media" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>social media</h4>
+            <!--=================== content body ====================-->
+            <div class="col-lg-10 col-md-9 col-12 body_block  align-content-center">
+                <div class="portfolio">
+                    <div class="container-fluid">
+                        <!--=================== masaonry portfolio start====================-->
+                        <div class="grid img-container justify-content-center no-gutters">
+                            <div class="grid-sizer col-sm-12 col-md-6 col-lg-3"></div>
+                            <div class="grid-item branding  col-sm-12 col-md-6 col-lg-3">
+                                <a href="https://localtvwiti.files.wordpress.com/2019/07/s097019249.jpg?quality=85&strip=all&w=770"
+                                    title="social media">
+                                    <div class="project_box_one">
+                                        <img src="https://localtvwiti.files.wordpress.com/2019/07/s097019249.jpg?quality=85&strip=all&w=770"
+                                            alt="social media" />
+                                        <div class="product_info">
+                                            <div class="product_info_text">
+                                                <div class="product_info_text_inner">
+                                                    <i class="ion ion-plus"></i>
+                                                    <h4>social media</h4>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="grid-item  branding architecture  col-sm-12 col-md-6">
-                            <a href="https://www.tech-recipes.com/wp-content/uploads/2018/01/How-to-Follow-Hashtags-on-Instagram.png" title="entertainment"></a>
+                                </a>
+                            </div>
+                            <div class="grid-item  branding architecture  col-sm-12 col-md-6">
+                                <a href="https://www.tech-recipes.com/wp-content/uploads/2018/01/How-to-Follow-Hashtags-on-Instagram.png"
+                                    title="entertainment"></a>
                                 <div class="project_box_one">
-                                    <img src="https://www.tech-recipes.com/wp-content/uploads/2018/01/How-to-Follow-Hashtags-on-Instagram.png" alt="entertainment" />
+                                    <img src="https://www.tech-recipes.com/wp-content/uploads/2018/01/How-to-Follow-Hashtags-on-Instagram.png"
+                                        alt="entertainment" />
                                     <div class="product_info">
                                         <div class="product_info_text">
                                             <div class="product_info_text_inner">
@@ -176,120 +225,133 @@
                                         </div>
                                     </div>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="grid-item  design col-sm-12 col-md-6 col-lg-3">
-                            <a href="https://neilpatel-qvjnwj7eutn3.netdna-ssl.com/wp-content/uploads/2016/07/instagram.jpg" title="camera">
-                                <div class="project_box_one">
-                                    <img src="https://neilpatel-qvjnwj7eutn3.netdna-ssl.com/wp-content/uploads/2016/07/instagram.jpg" alt="camera" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>camera</h4>
+                                </a>
+                            </div>
+                            <div class="grid-item  design col-sm-12 col-md-6 col-lg-3">
+                                <a href="https://neilpatel-qvjnwj7eutn3.netdna-ssl.com/wp-content/uploads/2016/07/instagram.jpg"
+                                    title="camera">
+                                    <div class="project_box_one">
+                                        <img src="https://neilpatel-qvjnwj7eutn3.netdna-ssl.com/wp-content/uploads/2016/07/instagram.jpg"
+                                            alt="camera" />
+                                        <div class="product_info">
+                                            <div class="product_info_text">
+                                                <div class="product_info_text_inner">
+                                                    <i class="ion ion-plus"></i>
+                                                    <h4>camera</h4>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="grid-item  photography design col-sm-12 col-md-6 col-lg-3">
-                            <a href="https://www.marketingdonut.co.uk/sites/default/files/shutterstock_376010302.jpg" title="food stories">
-                                <div class="project_box_one">
-                                    <img src="https://www.marketingdonut.co.uk/sites/default/files/shutterstock_376010302.jpg" alt="food stories" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>food stories</h4>
+                                </a>
+                            </div>
+                            <div class="grid-item  photography design col-sm-12 col-md-6 col-lg-3">
+                                <a href="https://www.marketingdonut.co.uk/sites/default/files/shutterstock_376010302.jpg"
+                                    title="food stories">
+                                    <div class="project_box_one">
+                                        <img src="https://www.maronut.co.uk/sites/default/files/shutterstock_376010302.jpg"
+                                            alt="food stories" />
+                                        <div class="product_info">
+                                            <div class="product_info_text">
+                                                <div class="product_info_text_inner">
+                                                    <i class="ion ion-plus"></i>
+                                                    <h4>food stories</h4>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="grid-item  branding photography  col-sm-12 col-md-6 col-lg-3">
-                            <a href="https://techcrunch.com/wp-content/uploads/2018/06/instagram-IGTV11.png?w=1390&crop=1" title="tv">
-                                <div class="project_box_one">
-                                    <img src="https://techcrunch.com/wp-content/uploads/2018/06/instagram-IGTV11.png?w=1390&crop=1" alt="tv" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>tv</h4>
+                                </a>
+                            </div>
+                            <div class="grid-item  branding photography  col-sm-12 col-md-6 col-lg-3">
+                                <a href="https://techcrunch.com/wp-content/uploads/2018/06/instagram-IGTV11.png?w=1390&crop=1"
+                                    title="tv">
+                                    <div class="project_box_one">
+                                        <img src="https://techcrunch.com/wp-content/uploads/2018/06/instagram-IGTV11.png?w=1390&crop=1"
+                                            alt="tv" />
+                                        <div class="product_info">
+                                            <div class="product_info_text">
+                                                <div class="product_info_text_inner">
+                                                    <i class="ion ion-plus"></i>
+                                                    <h4>tv</h4>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="grid-item   architecture design col-sm-12 col-md-6 col-lg-3">
-                            <a href="https://techcrunch.com/wp-content/uploads/2018/06/2-Watch-2UP-EN.png?resize=680,585" title="exploring">
-                                <div class="project_box_one">
-                                    <img src="https://techcrunch.com/wp-content/uploads/2018/06/2-Watch-2UP-EN.png?resize=680,585" alt="exploring" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>exploring</h4>
+                                </a>
+                            </div>
+                            <div class="grid-item   architecture design col-sm-12 col-md-6 col-lg-3">
+                                <a href="https://techcrunch.com/wp-content/uploads/2018/06/2-Watch-2UP-EN.png?resize=680,585"
+                                    title="exploring">
+                                    <div class="project_box_one">
+                                        <img src="https://techcrunch.com/wp-content/uploads/2018/06/2-Watch-2UP-EN.png?resize=680,585"
+                                            alt="exploring" />
+                                        <div class="product_info">
+                                            <div class="product_info_text">
+                                                <div class="product_info_text_inner">
+                                                    <i class="ion ion-plus"></i>
+                                                    <h4>exploring</h4>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="grid-item  photography architecture col-sm-12 col-md-6 col-lg-3">
-                            <a href="https://icdn4.digitaltrends.com/image/instagram-stories-face-filters-3-768x768.jpg" title="filters">
-                                <div class="project_box_one">
-                                    <img src="https://icdn4.digitaltrends.com/image/instagram-stories-face-filters-3-768x768.jpg" alt="filters" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>filters</h4>
+                                </a>
+                            </div>
+                            <div class="grid-item  photography architecture col-sm-12 col-md-6 col-lg-3">
+                                <a href="https://icdn4.digitaltrends.com/image/instagram-stories-face-filters-3-768x768.jpg"
+                                    title="filters">
+                                    <div class="project_box_one">
+                                        <img src="https://icdn4.digitaltrends.com/image/instagram-stories-face-filters-3-768x768.jpg"
+                                            alt="filters" />
+                                        <div class="product_info">
+                                            <div class="product_info_text">
+                                                <div class="product_info_text_inner">
+                                                    <i class="ion ion-plus"></i>
+                                                    <h4>filters</h4>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="grid-item  branding design  col-sm-12 col-md-6 col-lg-3">
-                            <a href="https://ichef.bbci.co.uk/news/624/cpsprodpb/445C/production/_107800571_gettyimages-1026589436-1.jpg" title="blogging">
-                                <div class="project_box_one">
-                                    <img src="https://ichef.bbci.co.uk/news/624/cpsprodpb/445C/production/_107800571_gettyimages-1026589436-1.jpg" alt="blogging" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>blogging</h4>
+                                </a>
+                            </div>
+                            <div class="grid-item  branding design  col-sm-12 col-md-6 col-lg-3">
+                                <a href="https://ichef.bbci.co.uk/news/624/cpsprodpb/445C/production/_107800571_gettyimages-1026589436-1.jpg"
+                                    title="blogging">
+                                    <div class="project_box_one">
+                                        <img src="https://ichef.bbci.co.uk/news/624/cpsprodpb/445C/production/_107800571_gettyimages-1026589436-1.jpg"
+                                            alt="blogging" />
+                                        <div class="product_info">
+                                            <div class="product_info_text">
+                                                <div class="product_info_text_inner">
+                                                    <i class="ion ion-plus"></i>
+                                                    <h4>blogging</h4>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="grid-item architecture  col-sm-12 col-md-6 col-lg-6">
-                            <a href="" title="calm">
-                                <a href="https://adespresso.com/?p=40148" title="awsm">
-                                <div class="project_box_one">
-                                    <img src="https://adespresso.com/?p=40148" alt="awsm" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>awsm</h4>
+                                </a>
+                            </div>
+                            <div class="grid-item architecture  col-sm-12 col-md-6 col-lg-6">
+                                <a href="" title="calm">
+                                    <a href="https://adespresso.com/?p=40148" title="awsm">
+                                        <div class="project_box_one">
+                                            <img src="https://adespresso.com/?p=40148" alt="awsm" />
+                                            <div class="product_info">
+                                                <div class="product_info_text">
+                                                    <div class="product_info_text_inner">
+                                                        <i class="ion ion-plus"></i>
+                                                        <h4>awsm</h4>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </a>
+                                    </a>
+                            </div>
                         </div>
-                    </div>
-                   
-                            <a href="" title="calm">
-                                <a href="https://www.cisomag.com/wp-content/uploads/2019/07/Instagram.jpg" title="post">
+
+                        <a href="" title="calm">
+                            <a href="https://www.cisomag.com/wp-content/uploads/2019/07/Instagram.jpg" title="post">
                                 <div class="project_box_one">
-                                    <img src="https://www.cisomag.com/wp-content/uploads/2019/07/Instagram.jpg" alt="post" />
+                                    <img src="https://www.cisomag.com/wp-content/uploads/2019/07/Instagram.jpg"
+                                        alt="post" />
                                     <div class="product_info">
                                         <div class="product_info_text">
                                             <div class="product_info_text_inner">
@@ -300,91 +362,101 @@
                                     </div>
                                 </div>
                             </a>
-                        </div>
                     </div>
-                   
-                            <a href="" title="calm">
-                                <a href="https://cdn.vox-cdn.com/thumbor/asPoswuQTTwwZSNKXYYspaP-MSI=/0x0:2040x1360/920x613/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/63817831/akrales_180614_1777_0229.0.jpg" title="signin">
-                                <div class="project_box_one">
-                                    <img src="https://cdn.vox-cdn.com/thumbor/asPoswuQTTwwZSNKXYYspaP-MSI=/0x0:2040x1360/920x613/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/63817831/akrales_180614_1777_0229.0.jpg" alt="signin" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>signin</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                            <a href="" title="calm">
-                                <a href="https://www.ionos.com/digitalguide/fileadmin/DigitalGuide/Teaser/instagram-fuer-unternehmen-t.jpg" title="like">
-                                <div class="project_box_one">
-                                    <img src="https://www.ionos.com/digitalguide/fileadmin/DigitalGuide/Teaser/instagram-fuer-unternehmen-t.jpg" alt="like" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>like</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <!--=================== masaonry portfolio end====================-->
                 </div>
+
+                <a href="" title="calm">
+                    <a href="https://cdn.vox-cdn.com/thumbor/asPoswuQTTwwZSNKXYYspaP-MSI=/0x0:2040x1360/920x613/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/63817831/akrales_180614_1777_0229.0.jpg"
+                        title="signin">
+                        <div class="project_box_one">
+                            <img src="https://cdn.vox-cdn.com/thumbor/asPoswuQTTwwZSNKXYYspaP-MSI=/0x0:2040x1360/920x613/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/63817831/akrales_180614_1777_0229.0.jpg"
+                                alt="signin" />
+                            <div class="product_info">
+                                <div class="product_info_text">
+                                    <div class="product_info_text_inner">
+                                        <i class="ion ion-plus"></i>
+                                        <h4>signin</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
             </div>
         </div>
-        <!--=================== content body end ====================-->
+        <a href="" title="calm">
+            <a href="https://www.ionos.com/digitalguide/fileadmin/DigitalGuide/Teaser/instagram-fuer-unternehmen-t.jpg"
+                title="like">
+                <div class="project_box_one">
+                    <img src="https://www.ionos.com/digitalguide/fileadmin/DigitalGuide/Teaser/instagram-fuer-unternehmen-t.jpg"
+                        alt="like" />
+                    <div class="product_info">
+                        <div class="product_info_text">
+                            <div class="product_info_text_inner">
+                                <i class="ion ion-plus"></i>
+                                <h4>like</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
     </div>
-</div>
+    </div>
+    <!--=================== masaonry portfolio end====================-->
+    </div>
+    </div>
+    </div>
+    <!--=================== content body end ====================-->
+    </div>
+    </div>
 
 
-<!-- jquery -->
-<script src="static/js/jquery.min.js"></script>
-<!-- bootstrap -->
-<script src="static/js/popper.js"></script>
-<script src="static/js/bootstrap.min.js"></script>
-<script src="static/js/waypoints.min.js"></script>
-<!--slick carousel -->
-<script src="static/js/slick.min.js"></script>
-<!--Portfolio Filter-->
-<script src="static/js/imgloaded.js"></script>
-<script src="static/js/isotope.js"></script>
-<!-- Magnific-popup -->
-<script src="static/js/jquery.magnific-popup.min.js"></script>
-<!--Counter-->
-<script src="static/js/jquery.counterup.min.js"></script>
-<!-- WOW JS -->
-<script src="static/js/wow.min.js"></script>
-<!-- Custom js -->
-<script src="static/js/main.js"></script>
-<script>
-$(document).ready(function () {
-    $(".insta_user_search").on('keyup',function () {
-        console.log($(this).attr('value'))
-        // var $id = $(this).attr('id');
-        //   $.ajax
-        //     ({
-        //       url: 'http://api.truckbook.io/appliedForAdmin?job_id=' + $(this).attr('id'),
-        //       type: 'get',
-        //       success: function (result) {
-        //         var json = $.parseJSON(result)
-        //         $('.modal-body').html(json.html)
-        //       }
-        //     });
-      });
+    <!-- jquery -->
+    <script src="static/js/jquery.min.js"></script>
+    <!-- bootstrap -->
+    <script src="static/js/popper.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/waypoints.min.js"></script>
+    <!--slick carousel -->
+    <script src="static/js/slick.min.js"></script>
+    <!--Portfolio Filter-->
+    <script src="static/js/imgloaded.js"></script>
+    <script src="static/js/isotope.js"></script>
+    <!-- Magnific-popup -->
+    <script src="static/js/jquery.magnific-popup.min.js"></script>
+    <!--Counter-->
+    <script src="static/js/jquery.counterup.min.js"></script>
+    <!-- WOW JS -->
+    <script src="static/js/wow.min.js"></script>
+    <!-- Custom js -->
+    <script src="static/js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".form").submit(function (e) {
+                e.preventDefault()
+                console.log($(".insta_user_search").val() + "   value")
+                var $user_id = $(".insta_user_search").val();
+                $.ajax
+                    ({
+                        url: 'http://localhost:8000/insta_user_details?user_name=' + $user_id,
+                        type: 'get',
+                        success: function (result) {
+                            console.log('data => ' + result)
+                            console.log('data => ' + (result).posts)
+                            $('#user').html(result.user)
+                            $('#posts').html(result.posts)
+                            $('#followers').html(result.Followers)
+                            $('#following').html(result.Following)
+                        }
+                    });
+            });
 
-    });
-</script>
+        });
+    </script>
+    <script>
+        function prevent_default(e) {
+            e.preventDefault()
+        }
+    </script>
 </body>
+
 </html>
-
-
-
-
-
